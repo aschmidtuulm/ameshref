@@ -3,7 +3,7 @@
 
 This project provides an efficient implementation of various adaptive mesh refinement strategies in two dimensions. The documentation provides a detailed investigation of the implemented mesh refinement methods and also presents how the methods are realized by utilization of reasonable data structure, use of Matlab built-in functions and vectorization. In the documentation, the focus is set on the deployment of ameshref in the context of the adaptive finite element method. To this end, also codes to realize the adaptive finite element method (AFEM) is additionally provided here. However, our code is kept general such that this package is not restricted to the AFEM context as our other test examples show. This package can be used to adaptively generate meshes in two dimensions in different ways. Moreover, it can also serve educational purposes on how to realize mesh refinement methods in an accessible, short but efficient way. The data structure used is very simple because only the coordinates of the vertices and the element-connectivities are needed. Marking of elements are interpreted as edge-based marking, i.e., an element is marked by marking each edge for bisection. In contrast to other mesh refinement packages, we do not make use of a recursive approach but prefer the realization in terms of vectorization.
 
-![alt text](https://github.com/aschmidtuulm/ameshref/blob/master/Refinement_methods_AMESHREF.png)
+![alt text](https://github.com/aschmidtuulm/ameshref/blob/master/RefinementmethodsAMESHREF.png)
 
 ## Getting Started
 
