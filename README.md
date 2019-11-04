@@ -127,6 +127,10 @@ patch('Faces',elements4,'Vertices',coordinates,'Facecolor','none')
 
 * **Stefan A. Funken** - **Anja Schmidt** Institute for Numerical Mathematics, Ulm University, Germany
 
+If you use ameshref in scientific work, please cite:
+
+Stefan A. Funken, and Anja Schmidt. "Adaptive Mesh Refinement in 2D–An Efficient Implementation in Matlab." Computational Methods in Applied Mathematics, 2018. https://doi.org/10.1515/cmam-2018-0220
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
