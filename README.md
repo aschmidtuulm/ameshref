@@ -21,6 +21,9 @@ MATLAB
 
 /example3: run _example1.m_ or _example2.m_ in each of the repositories (mesh refinement in the context of AFEM)
 
+/example4: run _example4.m_ (for a given discrete set of points all elements containing these 
+%          points are refined)
+
 
 ### Deployment for your own examples -  Data structure
 
